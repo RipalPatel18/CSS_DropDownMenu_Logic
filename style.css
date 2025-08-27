@@ -1,0 +1,37 @@
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+
+}
+.btn{
+    background-color: chocolate;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+
+.dropdown-content{
+    display: none;
+    background-color: rgb(239, 199, 170);
+    color: rgb(138, 59, 4);
+    height: 40px;
+    width: 150px;
+    position: absolute;
+    z-index: 1;
+}
+.dropdown-content li{
+
+    background-color: rgb(208, 136, 35);
+    display: block;
+    padding: 10px;
+}
+
+
+
+.dropdown-content li:hover {background-color: #f5c7ae}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
